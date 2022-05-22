@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 09, 2022 at 08:00 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.12
+-- Generation Time: May 22, 2022 at 07:11 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -65,8 +65,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `first_name`, `last_name`, `birthday`, `gender`, `image`) VALUES
-(1, 'kuba.jordanek@gmail.com', '$2y$10$6eVDne8PHlLp55lfqEINsuoSALb3hmzZ0v.IJG5pXuyDcJSDOeXum', 'Jakub', 'Jordanek', '2002-04-02', 'Male', '1.png'),
-(2, 'test@wp.pl', '$2y$10$xBux1e2wLkrelvUMyOL8yupCq4UKet.V1qgFMJWTE434XZ2JXWbqa', 'Testowy', 'Użytkownik', '2021-09-11', 'Other', 'default.png');
+(1, 'kuba.jordanek@gmail.com', '$2y$10$6eVDne8PHlLp55lfqEINsuoSALb3hmzZ0v.IJG5pXuyDcJSDOeXum', 'Jakub', 'Jordanek', '2002-04-02', 'Male', 'default.png'),
+(2, 'test@adres.com', '$2y$10$6eVDne8PHlLp55lfqEINsuoSALb3hmzZ0v.IJG5pXuyDcJSDOeXum', 'Test', 'User', '2021-09-11', 'Other', 'default.png');
 
 --
 -- Indexes for dumped tables

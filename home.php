@@ -78,10 +78,6 @@
                     echo '<a href="profile.php?id='.$_SESSION['id'].'" class="link-nav"><img src="img/'.$_SESSION['image'].'"></img></a>';
                 ?>
 
-                <a href="#" class="link-nav">
-                    <i class="icon-search"></i>
-                </a>
-
                 <a href="logout.php" class="link-nav">
                     <i class="icon-off"></i>
                 </a>
